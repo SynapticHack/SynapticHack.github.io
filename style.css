@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Erica Type';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Erica Type'), url('/font/Erika Type.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Erica Type Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Erica Type Italic'), url('/font/Erika Type_I.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Erica Type Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Erica Type Bold Italic'), url('/font/Erika Type_BI.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Erica Type Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Erica Type Bold'), url('/font/Erika Type_B.woff') format('woff');
+}
+
 canvas {
     display: block;
 }
@@ -13,13 +41,17 @@ html, body {
     background-color: #666666;
 }
 
+body {
+    font-family: Erica Type;
+}
+
 #banner {
     position: absolute;
     width: 100%;
-	top: 50px;
+    top: 50px;
     font-size: 100px;
     text-align: center;
-	z-index: 100;
+    z-index: 100;
     display: block;
     color: white;
 }
