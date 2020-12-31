@@ -63,7 +63,8 @@ body {
 
 #buttons {
     text-align: center;
-    bottom: 0;
+    position: absolute;
+    bottom: 10%;
 }
 
 a {
