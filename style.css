@@ -23,3 +23,29 @@ html, body {
     display: block;
     color: white;
 }
+
+#right-side {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+#left-side {
+    position: absolute;
+    top: 30%;
+    right: 65%;
+}
+
+div>img {
+    border: 10px solid #ffffff;
+}
+
+a {
+    font-size: 60px;
+    color: white;
+    border: 7px solid white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
