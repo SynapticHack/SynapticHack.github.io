@@ -41,6 +41,10 @@ html, body {
     background-color: #666666;
 }
 
+body {
+    font-family: Erika Type;
+}
+
 #banner {
     position: absolute;
     width: 100%;
