@@ -62,10 +62,7 @@ body {
 }
 
 #buttons {
-    position: absolute;
-    bottom: 10%;
-    left: 20%;
-    margin: auto;
+    text-align: center;
 }
 
 a {
