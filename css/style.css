@@ -53,7 +53,7 @@ body {
 #banner {
     position: absolute;
     width: 100%;
-    top: 50px;
+    top: 5%;
     font-size: 100px;
     text-align: center;
     z-index: 100;
@@ -63,8 +63,8 @@ body {
 
 #buttons {
     position: absolute;
-    bottom: 40px;
-    left: 15%;
+    bottom: 10%;
+    left: 20%;
     margin: auto;
 }
 
